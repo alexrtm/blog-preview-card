@@ -1,0 +1,123 @@
+:root {
+    --clr-yellow: hsl(47, 88%, 63%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-gray-500: hsl(0, 0%, 42%);
+    --clr-gray-950: hsl(0, 0%, 7%);
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* Font styles */
+
+.figtree-regular {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.figtree-bold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* General styling */
+
+body {
+    color: var(--clr-gray-950);
+    background-color: var(--clr-yellow);
+
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+/* Blog preview card styling */
+.blog-preview-card {
+    max-width: clamp(327px, 40.3vh, 384px);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    background-color: var(--clr-white);
+    box-shadow: 10px 10px 0px 0px black;
+    border: 1px solid black;
+
+    display: grid;
+    gap: 1rem;
+}
+
+.blog-preview-img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.blog-preview-content > *:nth-last-child(n+2){
+    margin-bottom: 0.75rem;
+}
+
+.blog-category {
+    width: fit-content;
+    padding: 0.25rem 0.8rem;
+    border-radius: 0.2rem;
+    font-size: clamp(12px, 1.45vh, 14px);
+    text-align: center;
+    background-color: var(--clr-yellow);
+}
+
+.publish-date {
+    font-size: clamp(12px, 1.45vh, 14px);
+}
+
+.blog-title {
+    font-size: clamp(20px, 2.5vh, 24px);
+}
+
+.blog-title:hover {
+    cursor: pointer;
+    color: var(--clr-yellow);
+}
+
+.blog-description {
+    font-size: clamp(14px, 1.7vh, 16px);
+    color: var(--clr-gray-500);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    max-width: 32px;
+}
