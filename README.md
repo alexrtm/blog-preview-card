@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/alexrtm/blog-preview-card)
-- Live Site URL: [live site URL](https://alexrtm.github.io/blog-preview-card)
+- Solution URL: [https://github.com/alexrtm/blog-preview-card](https://github.com/alexrtm/blog-preview-card)
+- Live Site URL: [https://alexrtm.github.io/blog-preview-card](https://alexrtm.github.io/blog-preview-card)
 
 ## My process
 
