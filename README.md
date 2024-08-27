@@ -56,5 +56,5 @@ The main thing I learned in this project was responsive typography using clamp()
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@alexrtm](https://www.frontendmentor.io/profile/alexrtm)
 
